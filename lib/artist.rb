@@ -1,4 +1,4 @@
 class Artist
-  attr_accessor :song
+  attr_accessor 
   @songs = []
 end
