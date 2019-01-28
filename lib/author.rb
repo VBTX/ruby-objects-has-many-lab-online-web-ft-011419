@@ -10,15 +10,15 @@ class Author
     @posts << post
     post.author = self
   end
+
+  def posts
+    @posts
+  end
 end
 
 
 
 
-  def add_song(song)
-    @songs << song
-    song.artist = self.name
-  end
 
   def songs
     @songs
